@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="masthead_styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+    <title>Kristián Vitovský - Research</title>
+</head>
+<body class="body_research">
+        <!-- Masthead -->
+      <!--   <header class="masthead_introduction">
+            <h1>Your Name</h1>
+            <p>Astronomer/Astrophysicist</p>
+        </header> -->
+
+
+        <div class="container">
+        <!-- Include the navigation bar -->
+        <div id="navbar"></div>
+        <script src="navscript.js"></script>
+
+        <main>
+            <div class="content">
+                <h2 class="page_tit">Research</h2>
+                
+                
+                <!--MASTERS THESIS-->
+                <div class="paragraphs">
+                    <div class="paragraph">
+                        <div class="language">
+                            <h2><a class="hidden_link" href="http://hdl.handle.net/20.500.11956/179554">Hydrodynamical simulations of circumstellar discs (master's thesis) </a> </h2>
+                         <p> The <a class="hidden_link" href="http://simbad.u-strasbg.fr/simbad/sim-id?Ident=Beta+Lyrae" > &#914; Lyrae A system </a> is a mass transferring binary with an accretion disc around the gainer. 
+                            The binary is comprised of two B-type stars with the less massive component transferring mass onto the more massive one. 
+                            In my master’s thesis, 
+                            which was supervised by <a class="hidden_link" href="https://sirrah.troja.mff.cuni.cz/~mira/">doc. Brož</a> of the <a class="hidden_link" href="https://astro.mff.cuni.cz/index_en.html">Astronomical Institute of Charles University</a>, 
+                            we conducted a study of the dynamics of the accretion disc.
+                            Our study follows in the footsteps of  <cite><a class="hidden_link" href="https://www.aanda.org/articles/aa/full_html/2021/01/aa39035-20/aa39035-20.html"> [Brož et al., 2021]</a></cite>
+                            who interpreted all available data in a radiation-transfer kinematic model.
+                            All our models were constrained by a fixed accretion rate, that was inferred from the observed rate of change of the binary period. </p>
+                           <p> <br> Firstly we modified the analytical models of steady-state
+                            viscous accretion discs by <cite><a class="hidden_link" href="https://ui.adsabs.harvard.edu/abs/1973A%26A....24..337S/abstract"> Shakura and Sunyaev [1973]</a></cite>, which introduce the well known &alpha;-parametrisation of viscosity, 
+                            for a general opacity prescription and to better fit a stellar central object,
+                            $$\kappa = \kappa_0 \rho^A T^B,$$
+                            and derived radial profiles of various quantities (&Sigma;, <i style="font-family: 'Times New Roman';">T</i>, <i style="font-family: 'Times New Roman';">H</i>).
+                            We were able to greatly reduce the number of possible models by looking for incosistencies between the assupmtions under which the models were derived and the generated profiles.
+                        </p>  
+                        <p><br>Secondly, we computed more general models numerically.
+                            We used 1-dimensional radiative hydrodynamic models, accounting for viscous, radiative as well as irradiation terms <cite>[<a class="hidden_link" href="https://ui.adsabs.harvard.edu/abs/2000A%26AS..141..165M/abstract">Masset, 2000</a>, <a class="hidden_link" href="https://ui.adsabs.harvard.edu/abs/2017A%26A...606A.114C/abstract">Chrenko et al., 2017</a>]</cite>.
+                            Since the central object in this case is close and hot, we exoerimented with simple modifications to the code to account for radiation pressure in the disc.   
+                        </p>
+                        <p>
+                        The combination of analytical and numerical modeling proved fruiful, the two approaches reached a good agreenment.
+                        <ul>
+                            <li> The simulations achieved a steady state on the viscous timescale and generated discs with approximately Keplerian rotation, hence giving some justification to use of the analytical models. </li>                    
+                            <li> The disk is still gas pressure dominated. </li>
+                            <li>To reconcile temperature profiles, we have to distinguish three different temperatures: mid-plane, atmospheric and irradiation (see fig.). 
+                                The latter two are comparable to observations.Our findings could indicate the presence of either vertical convection or a temperature inversion in the discs vertical atmosphere.  </li>
+                            <li> The fixed accretion rate implies high densities in the disc.</li>
+                            <li>The observed aspect ratio can be reached in vertical hydrostatic equilibrium. 
+                                This is in opposition to <cite><a class="hidden_link" href="https://www.aanda.org/articles/aa/full_html/2021/01/aa39035-20/aa39035-20.html"> [Brož et al., 2021]</a></cite> who who considered the disc to be vertically unstable.
+                            </li>
+                            <li> Radial velocities in the disc are of the order of 100 m s<sup>-1</sup>.</li>
+                            <li>The most dominant opacity presciption is close to Krammer's (absorption on electrons in the field of ions).</li>
+                            <li> Most succesful models were computed for &alpha;=0.1, which is consistent with gathered evidence for fully ionized thin accretion discs.</li>
+                            </ul>
+                        </p>
+                        <p><i>Peer reviewed paper coming soon.</i></p>.    
+                        </div>
+                    </div>
+                    <div class="paragraph">
+                        <div class="language">
+                            <a class="hidden_link" href="temp_spopisky.png"> <img src="MTtemp.png" alt="temperature problem"  width="100%" height="100%" > </a> 
+                                <div style="display: inline;">
+                                <a class="hidden_link" href="temp_popisky.png" style="display: inline; margin-right: 0px;"> 
+                                  <img src="temp_popisky.png" alt="temperature notes" width="50%" height="50%">
+                                </a> 
+                                <p style="display: inline;">Fig. A comparison of multiple radial temperature profiles of the accretion disc in the &#914; Lyrae A binary system. 
+                                  Profiles generated by a 1-dimensional radiative hydrodynamic model (<a class="hidden_link" href="https://sirrah.troja.mff.cuni.cz/~chrenko/#hydrocode">FARGO-THORIN</a>) 
+                                  are plotted next to the temperature profile from <cite><a class="hidden_link" href="https://www.aanda.org/articles/aa/full_html/2021/01/aa39035-20/aa39035-20.html"> [Brož et al., 2021]</a></cite>.  
+                                </p>
+                              </div>
+                              <p> 
+                                <ul>
+                                <li> The presentation from the defense of the thesis, which provides a more comprehensive summary: <a class="intext" href="THESIS_DEFENSE_PRESENTATION.pdf">Thesis Defense.pdf</a> </li>
+                                <li> Jupyter notebook with the most succesful modified Shakura-Sunayev model (gas pressure dominated with Krammer's opacity): <a class="intext" href="P_gasModel_krammer.ipynb">Pg_Krammer_model.ipynb</a> (The posted version of the code is rather raw, comments and instructions are often missing) </li>
+                                <li> Jupyter notebook with calculations of various timescales in the disc: <a class="intext" href="ESTIMETSofTIMESCALES.ipynb">Timescale_estimets.ipynb</a> (The posted version of the code is rather raw, comments and instructions are often missing)</li>
+                                <li> A compressed folder with the <a class="hidden_link" href="https://sirrah.troja.mff.cuni.cz/~chrenko/#hydrocode">FARGO-THORIN</a> code 
+                                    with a simple modification that introduces factors into the hydrodynamic equations that account for a relatively small but non-negligible fixed radiation pressure component: <a class="intext" href="Fargo_Thorin_simplePrad.tar.xz">FARGO_THORIN_simplePrad.tar.xz</a> </li>
+                                  </ul></p>                 
+                               </div>
+                    </div>
+                </div>
+
+
+
+    <div class="paragraphs">
+    <div class="paragraph">
+    <div class="language">
+        <a class="hidden_link" href="VfilterV1264aql.jpg"> <img src="VfilterV1264aql.jpg" alt="VfilterV1264aql Cyg"  width="100%" height="100%" > </a>
+        <p>
+            Fig. Evolution of luminosity in the V filter of the V1264 Cyg binary system from <a class="hidden_link" href="https://www.aanda.org/articles/aa/full_html/2022/10/aa44006-22/aa44006-22.html"><cite>[Harmanec et al., 2022]</cite>.</a>
+    </div>
+
+    </div>
+    <div class="paragraph">
+        <div class="language">
+        <h2>Photometric observations at Hvar observatory,V923 Aql and V1264 Aql</h2>
+        <p> I contributed to studies of the Be stars V923 Aql <a class="hidden_link" href="https://www.aanda.org/articles/aa/full_html/2021/03/aa39740-20/aa39740-20.html"><cite>[Wolf et al., 2021]</cite></a>
+            and V1294 Aql <a class="hidden_link" href="https://www.aanda.org/articles/aa/full_html/2022/10/aa44006-22/aa44006-22.html"><cite>[Harmanec et al., 2022]</cite></a>, my role was mainly as an observer.
+            In the summers of 2018, 2019 and 2020 I conducted photometric observations of variable stars including Be stars and eclipsing binaries
+            with the 65cm reflector at the <a class="hidden_link" href="https://oh.geof.unizg.hr/">Hvar observatory</a>, where my supervisor was <a class="hidden_link" href="https://oh.geof.unizg.hr/index.php/about-hvar-observatory/staff/hrvoje"> Dr. Božić</a>.
+        </p>
+    </div>
+    </div>
+
+
+            </div>
+            
+
+ <!--Bachelor THESIS-->
+ <div class="paragraphs">
+    <div class="paragraph">
+        <div class="language">
+            <h2><a class="hidden_link" href="http://hdl.handle.net/20.500.11956/109974">A study of the long-term brightness and colour variations of the Be star 88 Herculis (bachelor's thesis)</a></h2>
+            <p>
+                88 Her is a spectroscopic binary exhibiting the <a class="hidden_link" href="https://en.wikipedia.org/wiki/Be_star">Be phenomenon</a>. 
+                In the thesis, which was supervised by <a class="hidden_link", href="https://www.mff.cuni.cz/cs/fakulta/organizacni-struktura/lide?hdl=1171">prof. Harmanec</a> of the <a class="hidden_link" href="https://astro.mff.cuni.cz/index_en.html">Astronomical Institute of Charles University</a>, 
+                we collected photometric observations from 12 different sources covering a period from 1968 to 2019 
+                for the purpose of studying variations on the timescale of years to decades.
+                All the used data was either available in or transformed into the Johnson Standard system.
+            </p>
+            <br>
+            <p>
+                We compared the photometric data to the evolution of the H&alpha; emission line in the same period (see fig.). Phormetry and spectroscopy and discussed in connection
+                to possible physical models.
+                <ul>
+                <li>The light curve shows three long-term variation cycles that differ in strength and length. 
+                    A quantitative description of each cycle is given. The cycles seem to be quasiperiodic.</li>
+                <li> The star's behavior corresponds to what is described in literature as the <a class="hidden_link" href="https://ui.adsabs.harvard.edu/abs/2013A%26ARv..21...69R/abstract">Negative correlation</a>. 
+                     The observations are consistent with the model of a varying approximately edge-on observed disc around the star. </li>
+                <li>The three cycles show a positive correlation between the depth of the minimum in luminosity, 
+                    cycle length and maximum strength of hydrogen emission during the corresponding cycle. 
+                    These values have an inverse correlation to the reddening of of the B-V colour index.</li>
+                <li>The minimum luminosity is reached before the maximum in emission line strength.
+                    Hydrogen emission first appears during the steep decreas in luminosity at the begining of the cycle and reaches it's extreme during the gradual luminosity growth.</li>
+                <li>Altogether the three cycles indicate a gradual change on an even longer timescale. 
+                    The decreases in luminosity are becoming deeper,
+                    yet between cycles luminosity always returns to the same maximum.</li>
+                </ul>
+
+            </p>
+               </div>
+    </div>
+    <div class="paragraph">
+        <div class="language">
+        <a class="hidden_link" href="panel.jpg"> <img src="panel.jpg" alt="Bc-panel"  width="100%" height="100%" > </a>            
+        <p>Fig.<i>(Click to enlarge.)</i> A comparison of UBVR photometry, colour indices and H&alpha; emission line evolution od 88 Herculis from 1968 to 2019. 
+            Different colours of data points represent different observatories. For each cycle the time of the extreme data point is marked.    
+        </p>
+        <ul>
+            <li> A short python script that calculates the conversion from Hipparcos instrumental magnitudes to the Johnson Standard system using color indices measured at Hvar observatory (or data of the same format): <a class="intext" href="hiptojohn-hv.py">hiptojohn.py</a></li>
+        </ul>  
+    </div>
+    </div>
+
+</div>
+
+<!--Student project-->
+
+<div class="paragraphs">
+    <div class="paragraph">
+        <div class="language">
+            <a class="hidden_link" href="v1765cyg.png"> <img src="v1765cyg.png" alt="V1765 Cyg"  width="100%" height="100%" > </a>
+            <p>
+                Fig. Radial velocity measurements of the primary in the V1765 Cyg binary system for 4 spectral lines. </p>
+        </div>
+    </div>
+    <div class="paragraph">
+        <div class="language">
+        <h2>An attempted reliable detection of spectral lines of the secondary in the binary system V1765 Cyg (student project)</h2>
+        <p>
+            With the help and supervision of <a class="hidden_link", href="https://www.mff.cuni.cz/cs/fakulta/organizacni-struktura/lide?hdl=1171">prof. Harmanec</a> of the <a class="hidden_link" href="https://astro.mff.cuni.cz/index_en.html">Astronomical Institute of Charles University</a>,
+            I attempted a reliable detection of spectral lines of the secondary in the binary system V1765 Cyg.
+            We applied Fourier disentangling <a class="hidden_link" href="https://www.asu.cas.cz/~had/OO156.pdf"><cite>[Škoda et al.,2011]</cite></a> to spectra from the Ondřejov Observatory of the Academy of Sciences of the Czech Republic and conducted
+            radial velocity measurements on the disentangled spectra. We compared the obtained RV curves to the results we
+            got using classical methods, firstly using the ”oscilloscopic” method of measuring radial velocities in the SPEFO
+            tool <a class="hidden_link" href="https://ui.adsabs.harvard.edu/abs/1996ASPC..101..187S/abstract"><cite>[Skoda, 1996]</cite></a> on the measured spectra and secondly comparing the measured spectra to synthetic spectra.
+            The comparison showed that the disentangled spectra could not be regarded as reliable. 
+            The disentangling, in this case, is complicated by a likely similar spectral type of both components and a significantly higher luminosity of the
+            primary, it can also be an indication of the presence of additional complications in the system like circumstellar matter.
+
+        </p>
+    </div>
+    </div>
+
+
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,263 @@
+body {
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 400px;
+    padding: 10px;
+    display: block;
+    padding-bottom: 150px;
+    /*background: url('sky.png') center/cover no-repeat; /* Replace 'background-image.jpg' with your image file */
+    /* background-color: #0f0e1b; /* Hot pink color  */
+}
+
+.body_intro {background: url('sky.png') center/cover no-repeat; }
+.body_teaching {background: url('books.png') center/cover no-repeat; }
+.body_contact {background: url('seti.png') top/cover no-repeat;}
+.body_cv {background: url('face.png') top/cover no-repeat; }
+.body_research {background: url('starsky.png') top; } 
+
+nav {
+   /* background-color: #301d26; /* Hot pink color  */
+    padding: 20px;
+    width: 310px;
+    height: 100vh;
+    display: inline-block;
+    flex-direction: column;
+    align-items: stretch; /* Spread the links to fill the navbar */
+    justify-content: flex-start;
+    position: flex;
+    bottom:0;
+   /* background: url('sky.png') center/cover no-repeat; /* Replace 'background-image.jpg' with your image file */
+}
+
+.profile {
+    margin-bottom: 0px;
+    text-align: center;
+    width: 310px;
+    }
+
+.profile img {
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;  
+    /* width: 310px;
+    height: 310px;  */ 
+    object-fit: cover;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+h2, p {
+    color: #faf2f2; /* Dark color */
+    margin: 0px 0;
+    padding: 0px;
+    display: inline-block;
+}
+
+.navbar_title {
+    color: #faf2f2; 
+    font-size: 27px;
+    margin: 0px;
+    background: rgba(0, 3, 0, 0.7);
+    width: 310px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar_subtitle {
+    color: #faf2f2; 
+    font-size: 22px;
+    margin: 0px;
+    margin-bottom: 30px;
+    background: rgba(0, 3, 0, 0.7);
+    width: 310px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+    background: rgba(0, 3, 0, 0.7);
+}
+
+nav ul li a {
+    display: block; /* Each link with a block to itself */
+    text-decoration: none;
+    color: #faf2f2; /* Dark color */
+    font-weight: 900;
+    padding: 30px; /* Add padding for spacing */
+    transition: background-color 0.3s, text-decoration 0.3s; /* Add transition effect */
+    font-size: 22px
+}
+
+nav ul li a:hover {
+    background: rgba(0, 3, 0, 1.0); /* Change background color on hover */
+    text-decoration: underline; /* Underline text on hover */
+}
+
+
+
+header {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 300px;
+    color: #f1e9e9;
+    text-shadow: #000 2px 2px 0.2rem;
+    background-color: #0f0e1b;
+}
+
+header h1 {
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', fantasy;
+    margin: 0;
+}
+
+header p {
+    margin: 10px 0;
+}
+
+
+  .paragraphs {
+    display: flex; /* Display paragraphs as flex items */
+    justify-content: space-between; /* Space the paragraphs evenly */
+    color: #f5eded;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    flex-basis: 48%; /* Adjust the width of each paragraph */
+    margin-right: 20px; /* Add some spacing between paragraphs */
+    color: #c5bdbd;
+    background: rgba(0, 3, 0, 0.7);
+    padding: 30px;
+
+}
+
+.language {
+    display: flex; /* Display languages (h3 + p) as flex items */
+    flex-direction: column; /* Stack h3 and p vertically */
+    text-align: left;
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 600px) {
+    .paragraphs {
+        flex-wrap: wrap; /* Wrap paragraphs on smaller screens */
+    }
+
+    .paragraph {
+        flex-basis: 100%; /* Full width for each paragraph on smaller screens */
+        margin-right: 0; /* Reset margin on smaller screens */
+        margin-bottom: 20px; /* Add some spacing between paragraphs on smaller screens */
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: row; /* Set the direction to horizontal */
+    align-items: flex-start; 
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+    display: block;
+}
+
+.page_tit {
+    color: #faf2f2; 
+    font-size: 40px;
+    margin: 33px;
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 51px;
+    display: inline-block;
+   /* background: rgba(0, 3, 0, 0.7); */
+    text-align: center;
+    width: 40%;
+    font-weight: bold;
+}
+
+.content {
+    text-align: center;
+}
+
+.quote {
+    color: #c5bdbd;
+
+    background: rgba(0, 3, 0, 0.7);
+    padding: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.paragraphs_q {
+    display: flex; /* Display paragraphs as flex items */
+    justify-content: space-between; /* Space the paragraphs evenly */
+    color: #f5eded;
+    margin-bottom: 20px;
+}
+
+.paragraph_q {
+    flex-basis: 48%; /* Adjust the width of each paragraph */
+    margin-right: 20px; /* Add some spacing between paragraphs */
+    color: #c5bdbd;
+    background: rgba(0, 3, 0, 0.7);
+    padding: 30px;
+
+}
+
+.language_q {
+    display: flex; /* Display languages (h3 + p) as flex items */
+    flex-direction: column; /* Stack h3 and p vertically */
+    text-align: center;
+    font-size: 20px;
+    align-items: center;
+}
+
+a.hidden_link:link {
+text-decoration: none;
+color: #f5eded;
+}
+
+a.hidden_link:visited {
+    text-decoration: none;
+    color: #f5eded;
+    }
+
+a.hidden_link:hover {
+    text-decoration: underline;
+    color: #f5eded;
+    }
+
+
+
+a.intext:link {
+    text-decoration:underline dotted;
+    color: #f5eded;
+    }
+    
+a.intext:visited {
+    text-decoration: underline dotted;
+    color: #f5eded;
+    }
+
+a.intext:hover {
+    text-decoration: underline;
+    color: #f5eded;
+    }

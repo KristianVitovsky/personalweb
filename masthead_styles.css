@@ -1,0 +1,10 @@
+    .masthead_introduction {
+    background: left / cover url('sky.png');
+    display: block;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', fantasy;
+    color: #f1e9e9;
+    text-shadow: #000 2px 2px 0.2rem;
+}
