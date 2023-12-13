@@ -9,10 +9,10 @@ body {
 }
 
 .body_intro {background: url('sky.png') center/cover no-repeat; }
-.body_teaching {background: url('books.png') center/cover no-repeat; }
-.body_contact {background: url('seti.png') top/cover no-repeat;}
-.body_cv {background: url('face.png') top/cover no-repeat; }
-.body_research {background: url('starsky.png') top; } 
+.body_teaching {background: url('starsky_2.png') top; }
+.body_contact {background: url('starsky_2.png') top; }
+.body_cv {background: url('starsky_2.png') top; }
+.body_research {background: url('starsky_2.png') top; } 
 
 nav {
    /* background-color: #301d26; /* Hot pink color  */
