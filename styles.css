@@ -10,9 +10,9 @@ body {
 
 .body_intro {background: url('img/dots.png') top;}
 .body_teaching {background: url('img/dots.png') top; }
-.body_contact {background: url('img/starsky_2.png') top; }
-.body_cv {background: url('img/starsky_2.png') top; }
-.body_research {background: url('img/starsky_2.png') top; } 
+.body_contact {background: url('img/dots.png') top; }
+.body_cv {background: url('img/dots.png') top; }
+.body_research {background: url('img/dots.png') top; } 
 .body_LS24MatAVSE {background: url('img/mordor.jpg') center/cover no-repeat;}
 
 nav {
@@ -57,7 +57,7 @@ h2, p {
     color: #faf2f2; 
     font-size: 27px;
     margin: 0px;
-    background: rgba(0, 3, 0, 0.7);
+    background: rgba(0, 3, 0, 0.85);
     width: 310px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -68,7 +68,7 @@ h2, p {
     font-size: 22px;
     margin: 0px;
     margin-bottom: 30px;
-    background: rgba(0, 3, 0, 0.7);
+    background: rgba(0, 3, 0, 0.85);
     width: 310px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -83,7 +83,7 @@ nav ul {
 
 nav ul li {
     margin-bottom: 10px;
-    background: rgba(0, 3, 0, 0.7);
+    background: rgba(0, 3, 0, 0.85);
 }
 
 nav ul li a {
@@ -136,7 +136,7 @@ header p {
     flex-basis: 48%; /* Adjust the width of each paragraph */
     margin-right: 20px; /* Add some spacing between paragraphs */
     color: #c5bdbd;
-    background: rgba(0, 3, 0, 0.7);
+    background: rgba(0, 3, 0, 0.85);
     padding: 30px;
 
 }
