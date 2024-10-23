@@ -178,14 +178,14 @@ main {
 .page_tit {
     color: #faf2f2; 
     font-size: 40px;
-    margin: 33px;
-    padding: 30px;
-    padding-top: 50px;
-    padding-bottom: 51px;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: inline-block;
     background: rgba(0, 3, 0, 0.85);
     text-align: center;
-    width: 40%;
+    width: 25%;
     font-weight: bold;
 }
 
