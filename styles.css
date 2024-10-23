@@ -11,10 +11,10 @@ body {
 .body_intro {background: url('img/dots_uni.png') top;}
 .body_teaching {background: url('img/dots_uni.png') top; }
 .body_contact {background: url('img/dots_uni.png') top; }
-.body_cv {background: url('img/dots.png') top; }
-.body_research {background: url('img/dots.png') top; } 
+.body_cv {background: url('img/dots_uni.png') top; }
+.body_research {background: url('img/dots_uni.png') top; } 
 .body_LS24MatAVSE {background: url('img/mordor.jpg') center/cover no-repeat;}
-.body_theastws202425 {background: url('img/dots.png') top;}
+.body_theastws202425 {background: url('img/dots_uni.png') top;}
 
 nav {
    /* background-color: #301d26; /* Hot pink color  */
@@ -183,7 +183,7 @@ main {
     padding-top: 50px;
     padding-bottom: 51px;
     display: inline-block;
-   /* background: rgba(0, 3, 0, 0.7); */
+    background: rgba(0, 3, 0, 0.85);
     text-align: center;
     width: 40%;
     font-weight: bold;
