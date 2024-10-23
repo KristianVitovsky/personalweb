@@ -8,9 +8,9 @@ body {
     /* background-color: #0f0e1b; /* Hot pink color  */
 }
 
-.body_intro {background: url('img/dots.png') top;}
-.body_teaching {background: url('img/dots.png') top; }
-.body_contact {background: url('img/dots.png') top; }
+.body_intro {background: url('img/dots_uni.png') top;}
+.body_teaching {background: url('img/dots_uni.png') top; }
+.body_contact {background: url('img/dots_uni.png') top; }
 .body_cv {background: url('img/dots.png') top; }
 .body_research {background: url('img/dots.png') top; } 
 .body_LS24MatAVSE {background: url('img/mordor.jpg') center/cover no-repeat;}
