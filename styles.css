@@ -183,10 +183,11 @@ main {
     padding-top: 50px;
     padding-bottom: 51px;
     display: inline-block;
-    background: rgba(0, 3, 0, 0.85);
+    /*background: rgba(0, 3, 0, 0.85);*/
     text-align: center;
     width: 40%;
     font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(8, 2, 2), 0 0 1em rgb(1, 1, 7), 0 0 0.2em rgb(1, 1, 6);
 }
 
 .content {
